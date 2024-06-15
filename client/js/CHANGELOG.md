@@ -1,5 +1,16 @@
 # @gradio/client
 
+## 1.2.0
+
+### Features
+
+- [#8489](https://github.com/gradio-app/gradio/pull/8489) [`c2a0d05`](https://github.com/gradio-app/gradio/commit/c2a0d056d679d90631d9ccd944dadd67e7e03b7f) - Control Display of Error, Info, Warning.  Thanks @freddyaboulton!
+- [#8522](https://github.com/gradio-app/gradio/pull/8522) [`bdaa678`](https://github.com/gradio-app/gradio/commit/bdaa678d0c0a22250b41104f32e9121f98dc7437) - add handle_file docs.  Thanks @pngwn!
+
+### Fixes
+
+- [#8548](https://github.com/gradio-app/gradio/pull/8548) [`7fc0f51`](https://github.com/gradio-app/gradio/commit/7fc0f5149bb8d31f3d01b4151b478070499751ee) - Fix reload mode by implementing `close` on the client.  Thanks @freddyaboulton!
+
 ## 1.1.1
 
 ### Features

@@ -1,5 +1,21 @@
 # website
 
+## 0.32.0
+
+### Features
+
+- [#8489](https://github.com/gradio-app/gradio/pull/8489) [`c2a0d05`](https://github.com/gradio-app/gradio/commit/c2a0d056d679d90631d9ccd944dadd67e7e03b7f) - Control Display of Error, Info, Warning.  Thanks @freddyaboulton!
+- [#8516](https://github.com/gradio-app/gradio/pull/8516) [`de6aa2b`](https://github.com/gradio-app/gradio/commit/de6aa2b67668605b65ad92842b2c798afa2c6d8a) - Add helper classes to docs.  Thanks @aliabd!
+
+### Fixes
+
+- [#8537](https://github.com/gradio-app/gradio/pull/8537) [`81ae766`](https://github.com/gradio-app/gradio/commit/81ae7663b303ac7738bc216d9bf916f0515dd22e) - Many small fixes to website and docs.  Thanks @aliabd!
+- [#8559](https://github.com/gradio-app/gradio/pull/8559) [`483ecaa`](https://github.com/gradio-app/gradio/commit/483ecaae627145470ed68ed6872d42f2ac3a1980) - fix website build.  Thanks @pngwn!
+
+### Dependency updates
+
+- @gradio/code@0.6.12
+
 ## 0.31.5
 
 ### Features

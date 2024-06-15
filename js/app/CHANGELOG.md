@@ -1,5 +1,64 @@
 # @gradio/app
 
+## 1.37.0
+
+### Features
+
+- [#8131](https://github.com/gradio-app/gradio/pull/8131) [`bb504b4`](https://github.com/gradio-app/gradio/commit/bb504b494947a287d6386e0e7ead3860c0f15223) - Gradio components in `gr.Chatbot()`.  Thanks @dawoodkhan82!
+- [#8489](https://github.com/gradio-app/gradio/pull/8489) [`c2a0d05`](https://github.com/gradio-app/gradio/commit/c2a0d056d679d90631d9ccd944dadd67e7e03b7f) - Control Display of Error, Info, Warning.  Thanks @freddyaboulton!
+
+### Dependency updates
+
+- @gradio/code@0.6.12
+- @gradio/atoms@0.7.5
+- @gradio/audio@0.12.0
+- @gradio/chatbot@0.11.0
+- @gradio/gallery@0.11.0
+- @gradio/image@0.12.0
+- @gradio/multimodaltextbox@0.5.0
+- @gradio/plot@0.5.0
+- @gradio/simpleimage@0.6.0
+- @gradio/utils@0.5.0
+- @gradio/video@0.9.0
+- @gradio/statustracker@0.7.0
+- @gradio/client@1.2.0
+- @gradio/imageeditor@0.7.11
+- @gradio/accordion@0.3.17
+- @gradio/annotatedimage@0.6.11
+- @gradio/button@0.2.44
+- @gradio/checkbox@0.3.7
+- @gradio/checkboxgroup@0.5.7
+- @gradio/colorpicker@0.3.7
+- @gradio/column@0.1.2
+- @gradio/dataframe@0.8.11
+- @gradio/dataset@0.1.44
+- @gradio/downloadbutton@0.1.21
+- @gradio/dropdown@0.7.7
+- @gradio/fallback@0.3.7
+- @gradio/file@0.8.3
+- @gradio/fileexplorer@0.4.12
+- @gradio/form@0.1.19
+- @gradio/highlightedtext@0.7.1
+- @gradio/html@0.2.7
+- @gradio/json@0.2.7
+- @gradio/label@0.3.7
+- @gradio/markdown@0.7.7
+- @gradio/model3d@0.10.11
+- @gradio/number@0.4.7
+- @gradio/paramviewer@0.4.16
+- @gradio/radio@0.5.7
+- @gradio/row@0.1.3
+- @gradio/simpledropdown@0.2.7
+- @gradio/simpletextbox@0.2.7
+- @gradio/slider@0.4.7
+- @gradio/tabitem@0.2.11
+- @gradio/tabs@0.2.10
+- @gradio/textbox@0.6.6
+- @gradio/upload@0.11.3
+- @gradio/uploadbutton@0.6.12
+- @gradio/group@0.1.1
+- @gradio/box@0.1.19
+
 ## 1.36.2
 
 ### Features

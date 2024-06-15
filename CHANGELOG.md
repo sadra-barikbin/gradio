@@ -1,5 +1,27 @@
 # gradio
 
+## 4.37.0
+
+### Features
+
+- [#8131](https://github.com/gradio-app/gradio/pull/8131) [`bb504b4`](https://github.com/gradio-app/gradio/commit/bb504b494947a287d6386e0e7ead3860c0f15223) - Gradio components in `gr.Chatbot()`.  Thanks @dawoodkhan82!
+- [#8489](https://github.com/gradio-app/gradio/pull/8489) [`c2a0d05`](https://github.com/gradio-app/gradio/commit/c2a0d056d679d90631d9ccd944dadd67e7e03b7f) - Control Display of Error, Info, Warning.  Thanks @freddyaboulton!
+- [#8520](https://github.com/gradio-app/gradio/pull/8520) [`595ecf3`](https://github.com/gradio-app/gradio/commit/595ecf35da6cd5f9aa7d9135282d005b63fbdef1) - Add build target option to the custom component `gradio.config.js` file.  Thanks @pngwn!
+- [#8488](https://github.com/gradio-app/gradio/pull/8488) [`b03da67`](https://github.com/gradio-app/gradio/commit/b03da67d8f17c36e78b47bfad78e30c94d577828) - Minor changes to monitoring.  Thanks @freddyaboulton!
+- [#8529](https://github.com/gradio-app/gradio/pull/8529) [`d43d696`](https://github.com/gradio-app/gradio/commit/d43d69648669da98a4fdf741071501e531b68d86) - feat: exception handling about file_count params of File component.  Thanks @young-hun-jo!
+- [#8516](https://github.com/gradio-app/gradio/pull/8516) [`de6aa2b`](https://github.com/gradio-app/gradio/commit/de6aa2b67668605b65ad92842b2c798afa2c6d8a) - Add helper classes to docs.  Thanks @aliabd!
+- [#8522](https://github.com/gradio-app/gradio/pull/8522) [`bdaa678`](https://github.com/gradio-app/gradio/commit/bdaa678d0c0a22250b41104f32e9121f98dc7437) - add handle_file docs.  Thanks @pngwn!
+
+### Fixes
+
+- [#8530](https://github.com/gradio-app/gradio/pull/8530) [`d429690`](https://github.com/gradio-app/gradio/commit/d429690611eacd7b19cf4609332b0c12c93a1591) - Fix request serialization for fastapi `/docs`.  Thanks @zhzLuke96!
+- [#8506](https://github.com/gradio-app/gradio/pull/8506) [`7c5fec3`](https://github.com/gradio-app/gradio/commit/7c5fec3a2606b7a40f4cdc60f2553ba55fc8df99) - Use root url for monitoring url.  Thanks @abidlabs!
+- [#8524](https://github.com/gradio-app/gradio/pull/8524) [`546d14e`](https://github.com/gradio-app/gradio/commit/546d14e4f2773f91be7afc37355327044e7cb6e6) - add test + demo.  Thanks @pngwn!
+- [#8543](https://github.com/gradio-app/gradio/pull/8543) [`a4433be`](https://github.com/gradio-app/gradio/commit/a4433be25c183080d397413dc8c4330cd8c2b562) - Ability to disable orange progress animation for generators by setting `show_progress='minimal'` or `show_progress='hidden'` in the event definition. This is a small visual breaking change but it aligns better with the expected behavior of the `show_progress` parameter. Also added `show_progress` to `gr.Interface` and `gr.ChatInterface`.  Thanks @freddyaboulton!
+- [#8548](https://github.com/gradio-app/gradio/pull/8548) [`7fc0f51`](https://github.com/gradio-app/gradio/commit/7fc0f5149bb8d31f3d01b4151b478070499751ee) - Fix reload mode by implementing `close` on the client.  Thanks @freddyaboulton!
+- [#8531](https://github.com/gradio-app/gradio/pull/8531) [`88de38e`](https://github.com/gradio-app/gradio/commit/88de38e2597bc39532be77b917f1f02b1a11647d) - Fix custom components on windows.  Thanks @freddyaboulton!
+- [#8537](https://github.com/gradio-app/gradio/pull/8537) [`81ae766`](https://github.com/gradio-app/gradio/commit/81ae7663b303ac7738bc216d9bf916f0515dd22e) - Many small fixes to website and docs.  Thanks @aliabd!
+
 ## 4.36.1
 
 ### Features
